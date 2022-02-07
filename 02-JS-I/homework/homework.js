@@ -72,7 +72,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if str1.longitud === str2.longitud{
+  if (str1.longitud === str2.longitud){
     return true;
   }
   else {
@@ -184,10 +184,10 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero > 0){
     return "Es Positivo"
-  } else (numero < 0) {
-return "Es Negativo"  
+  } else (numero < 0); {
+return "Es Negativo" ; 
   }
-  if else (numero === o){
+  if (numero === o);{
     return false
   }
 }
