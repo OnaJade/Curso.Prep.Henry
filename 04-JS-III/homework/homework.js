@@ -3,18 +3,21 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  array[array][0]
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  array[4]
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  array.length
 }
 
 
@@ -23,6 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var Nuevoarray= [ ];
+  for(var i = 0 ; i < array.length;i++){
+    Nuevoarray [i]=array[i]+1
+  }
+  return Nuevoarray
 }
 
 
@@ -30,15 +38,16 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-}
-
+agregarItemAlFinalDelArray.push(elemento);
+}return array ;
 
 function agregarItemAlComienzoDelArray(array, elemento) {
   // Añade el "elemento" al comienzo del array
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-}
+  agregarItemAlComienzo.unfisht(elemento);
+} return array ; 
 
 
 function dePalabrasAFrase(palabras) {
@@ -54,8 +63,12 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  for (var i =0 ; i <array.length; i++)
+  if(array[i] === elemento ){
+    return true;
+  }else {return false
 }
-
+}
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
